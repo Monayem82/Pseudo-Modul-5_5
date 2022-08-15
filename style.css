@@ -1,0 +1,36 @@
+h1:hover{
+    background-color: aquamarine;
+    font-size: 50px;
+    margin: 20px;
+    padding: 40px;
+}
+span:hover{
+    background-color: blueviolet;
+    font-size: 60px;
+}
+input:focus{
+    color: red;
+}
+.inp:focus{
+    background-color: rgb(24, 24, 66);
+    color: rgb(224, 195, 195);
+}
+li:first-child{
+    color: antiquewhite;
+    background-color: black;
+
+}
+li:last-child{
+    color: red;
+    background-color: aqua;
+}
+li:nth-child(2n+1){
+    color: gray;
+    background-color: tomato;
+}
+li::before{
+    content: ' Hello ';
+}
+li::after{
+    content: ' gelo';
+}
